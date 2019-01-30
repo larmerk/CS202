@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 5</title>
+</head>
+<body>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="events.html">Contact</a>
+    </nav>
+
+    <h2>Welcome to Our Website</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At laboriosam adipisci, libero sed laborum, esse quam corrupti odit expedita sint facilis voluptates soluta culpa blanditiis! Vitae maxime ea numquam nihil!</p>
+    <h2>About Our School</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi beatae odit, soluta numquam suscipit id eaque eligendi. Asperiores maiores esse, ad quisquam vero nemo, distinctio officiis itaque tempore, deleniti soluta?</p>
+    <h3>More News About Our School</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus autem asperiores porro eveniet repudiandae, alias sed sint ipsum saepe placeat quisquam maiores ea ab soluta laboriosam quo harum. Eum, dolores?</p>
+    <h3>Last Campus News</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus autem asperiores porro eveniet repudiandae, alias sed sint ipsum saepe placeat quisquam maiores ea ab soluta laboriosam quo harum. Eum, dolores?</p>
+    <a href="about.html">Read More</a>
+    <h3>Knowledge is Power</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus autem asperiores porro eveniet repudiandae, alias sed sint ipsum saepe placeat quisquam maiores ea ab soluta laboriosam quo harum. Eum, dolores?</p>
+    <h3>Senior High School</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus autem asperiores porro eveniet repudiandae, alias sed sint ipsum saepe placeat quisquam maiores ea ab soluta laboriosam quo harum. Eum, dolores?</p>
+    <h3>Unmatched Professor</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, magnam. Accusamus et molestias quaerat praesentium iusto veniam aliquid, illo labore. Dicta, omnis aut quae delectus veniam molestiae sit id possimus?</p>
+</body>
+</html>
