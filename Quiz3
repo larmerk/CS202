@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lesson 5</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -13,6 +14,7 @@
         <a href="about.html">About</a>
         <a href="events.html">Events</a>
         <a href="events.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
     </nav>
 
     <h2>Welcome to Our Website</h2>
@@ -32,3 +34,66 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, magnam. Accusamus et molestias quaerat praesentium iusto veniam aliquid, illo labore. Dicta, omnis aut quae delectus veniam molestiae sit id possimus?</p>
 </body>
 </html>
+
+---------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 5</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="contacts.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <div class="container-gallery">
+        <div class="item"><img src="images/1.jpg" alt=""></div>
+        <div class="item"><img src="images/2.jpg" alt=""></div>
+        <div class="item"><img src="images/3.jpg" alt=""></div>
+        <div class="item"><img src="images/4.jpg" alt=""></div>
+        <div class="item"><img src="images/5.jpg" alt=""></div>
+        <div class="item"><img src="images/6.jpg" alt=""></div>
+        <div class="item"><img src="images/7.jpg" alt=""></div>
+        <div class="item"><img src="images/8.jpg" alt=""></div>
+        <div class="item"><img src="images/9.jpg" alt=""></div>
+        <div class="item"><img src="images/10.jpg" alt=""></div>
+        <div class="item"><img src="images/11.jpg" alt=""></div>
+        
+        </div>
+</body>
+</html>
+
+----------------------------------------
+
+nav{
+    display:flex;
+    justify-content: center;
+}
+
+nav a{
+    padding:1em;
+}
+
+.container-gallery{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minimax(250,1fr));
+    justify-items:center;
+    grid-gap:20px;
+    margin:0.2em 2em 0.2em 2em;
+}
+
+img{
+    max-height:300px;
+}
+
